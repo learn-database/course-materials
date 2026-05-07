@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Database Design Cycle — ITM-2100</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Georgia', serif;
+    background: #f5f3ef;
+    color: #1a1a1a;
+    padding: 40px 24px;
+  }
+
+  .page {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  /* ── Header ── */
+  .header {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+  .header .course-label {
+    font-family: 'Courier New', monospace;
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #888;
+    margin-bottom: 10px;
+  }
+  .header h1 {
+    font-size: 28px;
+    font-weight: normal;
+    color: #1a1a1a;
+    line-height: 1.3;
+  }
+  .header .subtitle {
+    font-size: 14px;
+    color: #666;
+    margin-top: 8px;
+    font-style: italic;
+  }
+
+  /* ── Cycle diagram ── */
+  .cycle-row {
+    display: flex;
+    align-items: stretch;
+    gap: 0;
+    margin-bottom: 48px;
+    position: relative;
+  }
+
+  .phase {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  /* Arrow connectors between phases */
+  .phase:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    right: -14px;
+    top: 32px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 14px solid var(--phase-color);
+    z-index: 10;
+  }
+
+  .phase-header {
+    background: var(--phase-color);
+    color: white;
+    padding: 14px 12px 12px;
+    text-align: center;
+    position: relative;
+  }
+  .phase-header .phase-num {
+    font-family: 'Courier New', monospace;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    opacity: 0.75;
+    display: block;
+    margin-bottom: 4px;
+  }
+  .phase-header .phase-name {
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1.3;
+  }
+
+  .phase-body {
+    background: white;
+    border: 1px solid #e0dbd3;
+    border-top: none;
+    flex: 1;
+    padding: 14px 12px;
+  }
+
+  .workflow-stages {
+    list-style: none;
+    margin-bottom: 14px;
+  }
+  .workflow-stages li {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    font-size: 12px;
+    line-height: 1.4;
+    color: #333;
+    padding: 5px 0;
+    border-bottom: 1px solid #f0ece6;
+  }
+  .workflow-stages li:last-child {
+    border-bottom: none;
+  }
+  .stage-num {
+    display: inline-block;
+    min-width: 20px;
+    height: 20px;
+    background: var(--phase-color);
+    color: white;
+    border-radius: 50%;
+    font-size: 10px;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+
+  .module-tag {
+    display: inline-block;
+    background: var(--phase-color);
+    color: white;
+    font-size: 10px;
+    font-family: 'Courier New', monospace;
+    padding: 2px 7px;
+    border-radius: 10px;
+    margin-right: 3px;
+    opacity: 0.85;
+  }
+  .module-tag-row {
+    margin-top: 10px;
+    border-top: 1px solid #f0ece6;
+    padding-top: 10px;
+  }
+  .module-label {
+    font-size: 10px;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Courier New', monospace;
+  }
+
+  /* ── Feedback loop ── */
+  .feedback-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 48px;
+    gap: 0;
+    position: relative;
+  }
+  .feedback-line {
+    height: 2px;
+    flex: 1;
+    background: #c0b8ae;
+  }
+  .feedback-arrow-left {
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-right: 10px solid #c0b8ae;
+  }
+  .feedback-label {
+    background: #f5f3ef;
+    padding: 4px 14px;
+    font-size: 11px;
+    color: #888;
+    font-style: italic;
+    white-space: nowrap;
+    border: 1px solid #d8d2ca;
+    border-radius: 12px;
+  }
+
+  /* ── Phase color variables ── */
+  .phase-requirements   { --phase-color: #3A5F8A; }
+  .phase-conceptual     { --phase-color: #2E7D6E; }
+  .phase-logical        { --phase-color: #4A7A4A; }
+  .phase-implementation { --phase-color: #8A5A2E; }
+  .phase-operation      { --phase-color: #8A3A3A; }
+  .phase-maintenance    { --phase-color: #5A4A7A; }
+
+  /* ── Summary table ── */
+  .summary-section {
+    margin-bottom: 48px;
+  }
+  .summary-section h2 {
+    font-size: 13px;
+    font-family: 'Courier New', monospace;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #888;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+  }
+  thead tr {
+    background: #1a1a1a;
+    color: white;
+  }
+  thead th {
+    padding: 10px 14px;
+    text-align: left;
+    font-family: 'Courier New', monospace;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: normal;
+  }
+  tbody tr:nth-child(even) { background: #f9f7f4; }
+  tbody tr:nth-child(odd)  { background: white; }
+  tbody td {
+    padding: 9px 14px;
+    vertical-align: top;
+    border-bottom: 1px solid #e8e3dc;
+    line-height: 1.5;
+  }
+  .phase-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 7px;
+    vertical-align: middle;
+  }
+  .col-phase  { width: 20%; }
+  .col-stages { width: 30%; }
+  .col-q      { width: 36%; }
+  .col-mod    { width: 14%; }
+
+  /* ── Key question callout ── */
+  .key-question {
+    font-size: 12px;
+    color: #444;
+    font-style: italic;
+  }
+
+  /* ── Footer note ── */
+  .footer-note {
+    text-align: center;
+    font-size: 11px;
+    color: #aaa;
+    font-style: italic;
+    margin-top: 8px;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- Header -->
+  <div class="header">
+    <div class="course-label">ITM-2100 · Database Management</div>
+    <h1>The Database Design Cycle</h1>
+    <div class="subtitle">Six phases of the classic cycle mapped to the nine-stage course workflow</div>
+  </div>
+
+  <!-- Phase cards -->
+  <div class="cycle-row">
+
+    <div class="phase phase-requirements">
+      <div class="phase-header">
+        <span class="phase-num">Phase 1</span>
+        <span class="phase-name">Requirements</span>
+      </div>
+      <div class="phase-body">
+        <ul class="workflow-stages">
+          <li><span class="stage-num">1</span>Understand the business process</li>
+          <li><span class="stage-num">2</span>Identify data requirements and business rules</li>
+        </ul>
+        <div class="module-tag-row">
+          <span class="module-label">Modules</span>
+          <span class="module-tag">1</span>
+          <span class="module-tag">3</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="phase phase-conceptual">
+      <div class="phase-header">
+        <span class="phase-num">Phase 2</span>
+        <span class="phase-name">Conceptual Design</span>
+      </div>
+      <div class="phase-body">
+        <ul class="workflow-stages">
+          <li><span class="stage-num">3</span>Identify entities, attributes, and relationships</li>
+          <li><span class="stage-num">4</span>Create the conceptual ER Diagram</li>
+        </ul>
+        <div class="module-tag-row">
+          <span class="module-label">Modules</span>
+          <span class="module-tag">3</span>
+          <span class="module-tag">4</span>
+          <span class="module-tag">5</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="phase phase-logical">
+      <div class="phase-header">
+        <span class="phase-num">Phase 3</span>
+        <span class="phase-name">Logical Design</span>
+      </div>
+      <div class="phase-body">
+        <ul class="workflow-stages">
+          <li><span class="stage-num">5</span>Convert the logical model into an implementation-ready DBDD</li>
+        </ul>
+        <div class="module-tag-row">
+          <span class="module-label">Modules</span>
+          <span class="module-tag">4</span>
+          <span class="module-tag">5</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="phase phase-implementation">
+      <div class="phase-header">
+        <span class="phase-num">Phase 4</span>
+        <span class="phase-name">Implementation</span>
+      </div>
+      <div class="phase-body">
+        <ul class="workflow-stages">
+          <li><span class="stage-num">6</span>Implement the design in SQL Server</li>
+          <li><span class="stage-num">7</span>Query and manipulate data</li>
+        </ul>
+        <div class="module-tag-row">
+          <span class="module-label">Modules</span>
+          <span class="module-tag">2</span>
+          <span class="module-tag">6</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="phase phase-operation">
+      <div class="phase-header">
+        <span class="phase-num">Phase 5</span>
+        <span class="phase-name">Operation</span>
+      </div>
+      <div class="phase-body">
+        <ul class="workflow-stages">
+          <li><span class="stage-num">8</span>Manage introductory operational concerns</li>
+        </ul>
+        <div class="module-tag-row">
+          <span class="module-label">Modules</span>
+          <span class="module-tag">7</span>
+          <span class="module-tag">8</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="phase phase-maintenance">
+      <div class="phase-header">
+        <span class="phase-num">Phase 6</span>
+        <span class="phase-name">Maintenance</span>
+      </div>
+      <div class="phase-body">
+        <ul class="workflow-stages">
+          <li><span class="stage-num">9</span>Revise the solution when requirements change</li>
+        </ul>
+        <div class="module-tag-row">
+          <span class="module-label">Modules</span>
+          <span class="module-tag">8</span>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /cycle-row -->
+
+  <!-- Feedback loop indicator -->
+  <div class="feedback-row">
+    <div class="feedback-arrow-left"></div>
+    <div class="feedback-line"></div>
+    <div class="feedback-label">Revision loops back to requirements — the cycle continues</div>
+    <div class="feedback-line"></div>
+  </div>
+
+  <!-- Summary table -->
+  <div class="summary-section">
+    <h2>Phase Reference</h2>
+    <table>
+      <thead>
+        <tr>
+          <th class="col-phase">Classic Phase</th>
+          <th class="col-stages">Workflow Stages</th>
+          <th class="col-q">Driving Question</th>
+          <th class="col-mod">Modules</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="phase-dot" style="background:#3A5F8A"></span>Requirements</td>
+          <td>1 · 2</td>
+          <td class="key-question">What work does the organization perform, and what must it track to run that work reliably?</td>
+          <td>1, 3</td>
+        </tr>
+        <tr>
+          <td><span class="phase-dot" style="background:#2E7D6E"></span>Conceptual Design</td>
+          <td>3 · 4</td>
+          <td class="key-question">What entities, attributes, and relationships represent the business — and does the ERD show that accurately?</td>
+          <td>3, 4, 5</td>
+        </tr>
+        <tr>
+          <td><span class="phase-dot" style="background:#4A7A4A"></span>Logical Design</td>
+          <td>5</td>
+          <td class="key-question">How should the conceptual model be expressed as tables, keys, data types, and constraints ready for implementation?</td>
+          <td>4, 5</td>
+        </tr>
+        <tr>
+          <td><span class="phase-dot" style="background:#8A5A2E"></span>Implementation</td>
+          <td>6 · 7</td>
+          <td class="key-question">Does the built schema match the approved design, and do the queries return what the business actually needs?</td>
+          <td>2, 6</td>
+        </tr>
+        <tr>
+          <td><span class="phase-dot" style="background:#8A3A3A"></span>Operation</td>
+          <td>8</td>
+          <td class="key-question">Who has access to what, how are concurrent changes protected, and how is the data backed up and recoverable?</td>
+          <td>7, 8</td>
+        </tr>
+        <tr>
+          <td><span class="phase-dot" style="background:#5A4A7A"></span>Maintenance</td>
+          <td>9</td>
+          <td class="key-question">When requirements change, can every artifact — ERD, DBDD, schema, queries — be revised consistently?</td>
+          <td>8</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="footer-note">ITM-2100 Database Management · Module 1 reference</div>
+
+</div>
+</body>
+</html>

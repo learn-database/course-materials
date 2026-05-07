@@ -1,0 +1,67 @@
+# Lesson 8.1: Stored Procedures
+
+## Instructor-Facing Content
+
+- Module: `Module 8: Procedural Logic and Final Project Revision`
+- Lesson purpose: Introduce stored procedures as justified, reusable database operations and require students to explain when a procedure should or should not exist.
+- Module context: This lesson opens Module 8 after students have already learned SQL querying, SQL Server implementation, views, transactions, and operational controls. It prepares Lesson 8.2 by making the stored-procedure boundary clear before students analyze triggers. It also prepares Lesson 8.3 by requiring procedure purpose, expected behavior, and testing evidence that can later be revised under a change request.
+- Primary learning type(s): `Procedures`
+- Secondary learning type(s), if any: `Problem solving / judgment`
+- Estimated time: `90 to 120 minutes`
+- Lesson outcomes:
+  - explain what problem a stored procedure solves
+  - justify when a procedure is appropriate versus when a plain query is enough
+  - create and execute a simple parameterized procedure in T-SQL
+  - explain expected behavior and basic tests for that procedure
+  - identify work that should remain under human judgment instead of being automated directly
+- Module alignment: Aligns to Module 8 objectives to decide when a stored procedure is appropriate, test procedural behavior with controlled inputs, and evaluate automation as bounded and accountable.
+- Course objective alignment:
+  - `5.` create and use SQL statements for querying and data manipulation
+  - `6.` administer introductory operational control work through bounded, testable procedural logic
+- Lesson sequence role: `Introduces` procedural logic in the module and establishes the justification standard used in later trigger and revision work.
+- Required prior knowledge:
+  - basic `SELECT`, `INSERT`, `UPDATE`, and `DELETE`
+  - SQL Server execution workflow
+  - tables, constraints, and views
+  - introductory transactions and expected-result checking
+- Lesson opening guidance: Start with a short contrast such as "one-time query versus repeated operation." Students should hear immediately that the lesson is about choosing the right tool, not wrapping every query in a procedure.
+- Teaching notes:
+  - keep the lesson centered on purpose, parameters, and testing rather than advanced performance tuning
+  - reinforce that a procedure is not automatically better than a query, view, or constraint
+  - require students to state expected behavior before running tests
+  - use business-facing examples where automation helps consistency but does not replace fairness review or human approval
+  - keep trigger material out of scope except when clarifying boundaries
+- Online activities:
+  - read the lesson and compare plain-query versus procedure cases
+  - inspect one reporting procedure and one data-changing procedure
+  - complete a short tool-fit judgment exercise
+  - draft three expected-behavior test cases
+- Homework / graded assignments:
+  - a short procedure-justification response comparing query, procedure, and human-review alternatives
+  - one simple parameterized procedure with a basic testing log
+- Deliverables:
+  - written justification for tool choice
+  - T-SQL procedure script
+  - testing log with expected versus actual behavior
+- Assessment plan:
+  - formative: guided practice on tool choice, parameters, and test planning
+  - graded: one justification task plus one simple procedure and test log
+  - evidence of learning: students explain why the procedure is warranted, not just that it runs
+  - AI-available safeguard: require expected-behavior reasoning, procedure-versus-query comparison, and testing evidence tied to actual results
+- Suggested rubric focus:
+  - fit between business problem and tool choice
+  - clarity and relevance of parameter use
+  - quality of expected-behavior reasoning
+  - adequacy of testing evidence
+  - recognition of tasks that should not be automated directly
+- Common misconceptions:
+  - "If SQL can do it, it should be a procedure."
+  - "A procedure that compiles is already correct."
+  - "Any repeated query must become a procedure."
+  - "Automation should replace judgment-heavy review steps."
+  - "Zero rows always means the procedure failed."
+- Christian integration notes:
+  - frame procedures as delegated authority entrusted to the database for narrow, repeatable work
+  - connect bounded automation to stewardship, trust, and accountable business practice
+  - include at least one prompt about what should not be automated because fairness or discernment still matters
+- Workflow connection: This lesson sits after implementation and before revision in the larger course workflow. Students are packaging repeatable database operations so those operations can later be tested, defended, and revised when project requirements change.
