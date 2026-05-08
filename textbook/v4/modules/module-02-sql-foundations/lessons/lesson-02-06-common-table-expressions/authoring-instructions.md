@@ -11,9 +11,9 @@ Use `textbook/v4/03-lesson-prompt.md` as the standing instruction file for this 
 
 ## Output paths
 
-- Instruction file: `textbook/v4/lesson-instructions/lesson-2.6-common-table-expressions-instructions.md`
-- Student draft: `textbook/v4/drafts/module-2-sql-foundations/lesson-2.6-common-table-expressions.md`
-- Instructor draft: `textbook/v4/drafts/module-2-sql-foundations/lesson-2.6-common-table-expressions-instructor.md`
+- Instruction file: `textbook/v4/modules/module-02-sql-foundations/lessons/lesson-02-06-common-table-expressions/authoring-instructions.md`
+- Student draft: `textbook/v4/modules/module-02-sql-foundations/lessons/lesson-02-06-common-table-expressions/lesson.md`
+- Instructor draft: `textbook/v4/modules/module-02-sql-foundations/lessons/lesson-02-06-common-table-expressions/instructor.md`
 
 ## Summary
 

@@ -5,9 +5,9 @@
 - Lesson number: `1.1`
 - Canonical title: `Why Databases Matter`
 - Canonical slug: `why-databases-matter`
-- Instruction file: `textbook/v4/lesson-instructions/lesson-1.1-why-databases-matter-instructions.md`
-- Student draft: `textbook/v4/drafts/module-1-the-whole-database-workflow/lesson-1.1-why-databases-matter.md`
-- Instructor draft: `textbook/v4/drafts/module-1-the-whole-database-workflow/lesson-1.1-why-databases-matter-instructor.md`
+- Instruction file: `textbook/v4/modules/module-01-the-whole-database-workflow/lessons/lesson-01-01-why-databases-matter/authoring-instructions.md`
+- Student draft: `textbook/v4/modules/module-01-the-whole-database-workflow/lessons/lesson-01-01-why-databases-matter/lesson.md`
+- Instructor draft: `textbook/v4/modules/module-01-the-whole-database-workflow/lessons/lesson-01-01-why-databases-matter/instructor.md`
 
 ## Purpose Of This Lesson
 

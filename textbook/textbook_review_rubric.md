@@ -1,6 +1,6 @@
 # ITM-2100 Textbook Draft Review Rubric
 
-This rubric is for reviewing draft textbook chapters against the requirements in [agents.md](/Users/hye/Documents/GitHub/dbm-materials/textbook/agents.md) and the learning-outcomes map in [itm2100_textbook_plan.md](/Users/hye/Documents/GitHub/dbm-materials/textbook/itm2100_textbook_plan.md).
+This rubric is for reviewing draft textbook chapters against the requirements in [agents.md](agents.md) and the learning-outcomes map in [itm2100_textbook_plan.md](itm2100_textbook_plan.md).
 
 ## How to score
 

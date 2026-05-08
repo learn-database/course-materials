@@ -5,9 +5,9 @@
 - Lesson number: `5.2`
 - Canonical title: `Database Design Diagrams`
 - Canonical slug: `database-design-diagrams`
-- Instruction file: `textbook/v4/lesson-instructions/lesson-5.2-database-design-diagrams-instructions.md`
-- Student draft: `textbook/v4/drafts/module-5-design-artifacts/lesson-5.2-database-design-diagrams.md`
-- Instructor draft: `textbook/v4/drafts/module-5-design-artifacts/lesson-5.2-database-design-diagrams-instructor.md`
+- Instruction file: `textbook/v4/modules/module-05-design-artifacts/lessons/lesson-05-02-database-design-diagrams/authoring-instructions.md`
+- Student draft: `textbook/v4/modules/module-05-design-artifacts/lessons/lesson-05-02-database-design-diagrams/lesson.md`
+- Instructor draft: `textbook/v4/modules/module-05-design-artifacts/lessons/lesson-05-02-database-design-diagrams/instructor.md`
 
 ## Lesson Purpose
 

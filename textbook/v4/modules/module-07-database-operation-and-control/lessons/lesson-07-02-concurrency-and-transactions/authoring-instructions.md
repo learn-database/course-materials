@@ -9,9 +9,9 @@
 
 ## Required Output Paths
 
-- Instruction file: `textbook/v4/lesson-instructions/lesson-7.2-concurrency-and-transactions-instructions.md`
-- Student draft: `textbook/v4/drafts/module-7-database-operation-and-control/lesson-7.2-concurrency-and-transactions.md`
-- Instructor draft: `textbook/v4/drafts/module-7-database-operation-and-control/lesson-7.2-concurrency-and-transactions-instructor.md`
+- Instruction file: `textbook/v4/modules/module-07-database-operation-and-control/lessons/lesson-07-02-concurrency-and-transactions/authoring-instructions.md`
+- Student draft: `textbook/v4/modules/module-07-database-operation-and-control/lessons/lesson-07-02-concurrency-and-transactions/lesson.md`
+- Instructor draft: `textbook/v4/modules/module-07-database-operation-and-control/lessons/lesson-07-02-concurrency-and-transactions/instructor.md`
 
 ## Source Order
 

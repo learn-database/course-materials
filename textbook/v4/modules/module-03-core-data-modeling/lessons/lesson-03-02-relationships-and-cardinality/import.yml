@@ -1,0 +1,116 @@
+contractVersion: 0.1.0
+lessonId: module-3.lesson-3.2.relationships-and-cardinality
+source: lesson.md
+title: Relationships and Cardinality
+playerMode: segmented
+defaultCaseRef: lakeside-tutoring-center
+
+segments:
+  - id: before-you-start
+    title: Before You Start
+    type: intro
+    purpose: Orient the student before the main relationship-reasoning work.
+    sections:
+      - "Before You Start > Lesson Overview"
+      - "Before You Start > Lesson Outcomes"
+      - "Before You Start > Key Terms"
+      - "Before You Start > Readings and Media"
+    interactions: []
+
+  - id: relationships-business-meaning
+    title: Relationships Begin With Business Meaning
+    type: read_try
+    purpose: Connect relationship lines to business meaning, then separate maximum from minimum participation.
+    sections:
+      - "Relationships Begin With Business Meaning > 1. Relationships begin with business meaning"
+      - "Relationships Begin With Business Meaning > 2. Cardinality and participation answer different questions"
+    interactions:
+      - id: practice-2-separate-maximum-from-minimum
+        source: "Relationships Begin With Business Meaning > Practice 2: Separate maximum from minimum"
+        kind: written_response_interaction
+        scoringMode: self_graded
+        points: 1
+        placement: after_sections
+
+  - id: relationship-patterns
+    title: Relationship Patterns
+    type: read_try
+    purpose: Compare 1:N, N:M, recursive hierarchy, and recursive network patterns.
+    sections:
+      - "Relationship Patterns > 1. One-to-many and many-to-many do not mean the same thing"
+      - "Relationship Patterns > Example 1: Advisor and Student"
+      - "Relationship Patterns > Example 2: Student and Course"
+      - "Relationship Patterns > Example 5: Provider and Provider"
+      - "Relationship Patterns > Example 6: User and User"
+    interactions:
+      - id: practice-1-classify-the-pattern
+        source: "Relationship Patterns > Practice 1: Classify the pattern"
+        kind: written_response_interaction
+        scoringMode: self_graded
+        points: 1
+        placement: after_sections
+      - id: practice-5-label-the-recursive-pattern
+        source: "Relationship Patterns > Practice 5: Label the recursive pattern"
+        kind: written_response_interaction
+        scoringMode: self_graded
+        points: 1
+        placement: after_sections
+
+  - id: false-business-stories
+    title: Avoid False Business Stories
+    type: critique
+    purpose: Show how wrong cardinality choices misrepresent real business work.
+    sections:
+      - "Avoid False Business Stories > 1. Wrong cardinality choices misrepresent real work"
+      - "Avoid False Business Stories > 2. Read both sides of the relationship"
+      - "Avoid False Business Stories > 3. Surface wording can mislead you"
+      - "Avoid False Business Stories > Example 3: Customer and Order"
+      - "Avoid False Business Stories > Example 4: Employee and ParkingPermit"
+    interactions:
+      - id: practice-3-critique-the-relationship-choice
+        source: "Avoid False Business Stories > Practice 3: Critique the relationship choice"
+        kind: written_response_interaction
+        scoringMode: self_graded
+        points: 1
+        placement: after_sections
+      - id: practice-4-do-not-trust-surface-wording-alone
+        source: "Avoid False Business Stories > Practice 4: Do not trust surface wording alone"
+        kind: written_response_interaction
+        scoringMode: self_graded
+        points: 1
+        placement: after_sections
+
+  - id: truthful-modeling
+    title: Model People Truthfully
+    type: apply
+    purpose: Connect relationship modeling to truthful representation, critique, and project transfer.
+    sections:
+      - "Model People Truthfully > 1. Relationship choices can keep people visible"
+      - "Model People Truthfully > What To Do"
+    interactions:
+      - id: assignment-relationship-critique
+        source: "Model People Truthfully > Assignment: Relationship Critique"
+        kind: design_judgment
+        scoringMode: grading_prompt
+        points: 3
+        placement: after_sections
+      - id: project-checkpoint-relationship-rules
+        source: "Model People Truthfully > Project Checkpoint: Relationship Rules"
+        kind: project_checkpoint
+        scoringMode: self_graded
+        points: 1
+        placement: after_assignment
+    wrapUp:
+      source: "Model People Truthfully > Wrap-Up"
+
+controlledTags:
+  - reading
+  - knowledge-check
+  - self-check
+  - design-judgment
+  - project-checkpoint
+  - relationship-pattern
+  - legacy-kce
+  - lakeside
+  - biblical-integration
+  - truthfulness

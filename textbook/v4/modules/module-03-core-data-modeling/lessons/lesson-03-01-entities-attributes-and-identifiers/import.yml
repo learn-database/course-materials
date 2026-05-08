@@ -1,0 +1,106 @@
+contractVersion: 0.1.0
+lessonId: module-3.lesson-3.1.entities-attributes-and-identifiers
+source: lesson.md
+title: Entities, Attributes, and Identifiers
+playerMode: segmented
+
+segments:
+  - id: before-you-start
+    title: Before You Start
+    type: intro
+    purpose: "Orient the student to the first conceptual modeling judgment: what the organization actually tracks."
+    sections:
+      - Lesson Overview
+      - Lesson Outcomes
+      - Key Terms
+      - Readings and Media
+    interactions: []
+
+  - id: tracked-things
+    title: Tracked Things Versus Descriptive Facts
+    type: read_try
+    purpose: Separate entities from attributes by asking whether the business tracks the item independently.
+    sections:
+      - "Core Content > A Repeatable Way To Tell Entities From Attributes"
+      - "Core Content > Entities Are Tracked Things"
+      - "Core Content > Attributes Describe Tracked Things"
+      - "Core Content > Tracked Objects Versus Descriptive Facts"
+    interactions:
+      - id: practice-1-sort-the-scenario-elements
+        source: "Guided Practice > Practice 1: Sort The Scenario Elements"
+        kind: written_response_interaction
+        scoringMode: self_graded
+        points: 1
+        placement: after_sections
+
+  - id: identifier-judgment
+    title: Identifier Judgment
+    type: read_try
+    purpose: Compare identifier choices using uniqueness, stability, and business meaning.
+    sections:
+      - "Core Content > Identifier Choices Should Be Judged, Not Assumed"
+      - "Core Content > Strong Entities And Weak Entities"
+    interactions:
+      - id: practice-2-compare-identifier-choices
+        source: "Guided Practice > Practice 2: Compare Identifier Choices"
+        kind: written_response_interaction
+        scoringMode: self_graded
+        points: 1
+        placement: after_sections
+      - id: practice-3-strong-or-weak
+        source: "Guided Practice > Practice 3: Strong Or Weak"
+        kind: written_response_interaction
+        scoringMode: self_graded
+        points: 1
+        placement: after_sections
+
+  - id: visibility-and-case
+    title: Visibility And Careful Requirements Reading
+    type: critique
+    purpose: Connect entity and attribute choices to truthful representation of people, responsibilities, and service needs.
+    sections:
+      - "Core Content > Visibility And Careful Requirements Reading"
+      - Examples and Case
+    interactions:
+      - id: practice-4-visibility-check
+        source: "Guided Practice > Practice 4: Visibility Check"
+        kind: written_response_interaction
+        scoringMode: self_graded
+        points: 1
+        placement: after_sections
+
+  - id: apply-and-check
+    title: Apply And Check Your Work
+    type: apply
+    purpose: Transfer entity, attribute, identifier, and visibility judgment into a new repair-shop case.
+    sections:
+      - What to Do
+    interactions:
+      - id: assignment-conceptual-modeling-worksheet
+        source: Assignments
+        kind: design_judgment
+        scoringMode: grading_prompt
+        points: 3
+        placement: after_sections
+      - id: project-checkpoint-entity-attribute-list
+        source: Project Checkpoint or Module Connection
+        kind: project_checkpoint
+        scoringMode: self_graded
+        points: 1
+        placement: after_assignment
+    wrapUp:
+      source: Wrap-Up
+
+controlledTags:
+  - reading
+  - knowledge-check
+  - self-check
+  - design-judgment
+  - project-checkpoint
+  - legacy-kce
+  - entity
+  - attribute
+  - identifier
+  - weak-entity
+  - biblical-integration
+  - truthfulness

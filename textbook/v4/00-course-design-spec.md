@@ -8,16 +8,16 @@ This version assumes a fully asynchronous online course in which students have p
 
 Detailed module planning lives in companion documents:
 
-- [01-module-content.md](/Users/hye/Documents/GitHub/dbm-materials/textbook/v4/01-module-content.md) for the module index
-- [02-instructional-strategies-for-lessons.md](/Users/hye/Documents/GitHub/dbm-materials/textbook/v4/02-instructional-strategies-for-lessons.md) for lesson-level strategy rules
-- [assessments/](/Users/hye/Documents/GitHub/dbm-materials/textbook/v4/assessments) for the lesson-, module-, and course-level assessment artifacts
-- [activities/](/Users/hye/Documents/GitHub/dbm-materials/textbook/v4/activities) for lesson-level assignment and activity patterns
-- [assignments/](/Users/hye/Documents/GitHub/dbm-materials/textbook/v4/assignments) for student-facing lesson assignment drafts
-- [cases/](/Users/hye/Documents/GitHub/dbm-materials/textbook/v4/cases) for the primary tutoring case, alternative clinic case, and late-course redesign progression
-- [05-lesson-writing-agent-index.md](/Users/hye/Documents/GitHub/dbm-materials/textbook/v4/05-lesson-writing-agent-index.md) for canonical lesson slugs, filenames, and agent output paths
-- [modules-plan/](/Users/hye/Documents/GitHub/dbm-materials/textbook/v4/modules-plan) for detailed module blueprints
-- [06-design-object-naming-and-notation-conventions.md](/Users/hye/Documents/GitHub/dbm-materials/textbook/v4/06-design-object-naming-and-notation-conventions.md) for the shared v4 naming and notation conventions
-- [../christian_integration_guide.md](/Users/hye/Documents/GitHub/dbm-materials/textbook/christian_integration_guide.md) for the course-wide Christian integration standard
+- [01-module-content.md](01-module-content.md) for the module index
+- [02-instructional-strategies-for-lessons.md](02-instructional-strategies-for-lessons.md) for lesson-level strategy rules
+- [assessments/](assessments/) for the lesson-, module-, and course-level assessment artifacts
+- [activities/](activities/) for lesson-level assignment and activity patterns
+- [assignments/](assignments/) for student-facing lesson assignment drafts
+- [cases/](cases/) for the primary tutoring case, alternative clinic case, and late-course redesign progression
+- [05-lesson-writing-agent-index.md](05-lesson-writing-agent-index.md) for canonical lesson slugs, filenames, and agent output paths
+- [modules-plan/](modules-plan/) for detailed module blueprints
+- [06-design-object-naming-and-notation-conventions.md](06-design-object-naming-and-notation-conventions.md) for the shared v4 naming and notation conventions
+- [../christian_integration_guide.md](../christian_integration_guide.md) for the course-wide Christian integration standard
 
 ## Course Identity
 
@@ -83,15 +83,15 @@ Student-facing content must teach directly, include realistic examples, and supp
 
 ### Christian Integration Continuity
 
-v4 does not replace the existing Christian integration standard. Use [textbook/christian_integration_guide.md](/Users/hye/Documents/GitHub/dbm-materials/textbook/christian_integration_guide.md) as the governing authoring guide for worldview, vocation, stewardship, privacy, justice, trust, and responsible business-data use.
+v4 does not replace the existing Christian integration standard. Use [textbook/christian_integration_guide.md](../christian_integration_guide.md) as the governing authoring guide for worldview, vocation, stewardship, privacy, justice, trust, and responsible business-data use.
 
 ### Naming and Notation Continuity
 
-v4 uses the same naming and notation convention set established in v3. Use [06-design-object-naming-and-notation-conventions.md](/Users/hye/Documents/GitHub/dbm-materials/textbook/v4/06-design-object-naming-and-notation-conventions.md) as the local v4 reference for entity names, attribute names, table names, column names, PK and FK notation, relational schema notation, and ERD versus DBDD boundaries.
+v4 uses the same naming and notation convention set established in v3. Use [06-design-object-naming-and-notation-conventions.md](06-design-object-naming-and-notation-conventions.md) as the local v4 reference for entity names, attribute names, table names, column names, PK and FK notation, relational schema notation, and ERD versus DBDD boundaries.
 
 ### Lesson Naming Continuity
 
-v4 should use one canonical lesson identity system for AI-generated content. Use [05-lesson-writing-agent-index.md](/Users/hye/Documents/GitHub/dbm-materials/textbook/v4/05-lesson-writing-agent-index.md) as the authority for lesson numbers, lesson slugs, and file-output paths. Agents should not invent alternate slugs or filenames.
+v4 should use one canonical lesson identity system for AI-generated content. Use [05-lesson-writing-agent-index.md](05-lesson-writing-agent-index.md) as the authority for lesson numbers, lesson slugs, and file-output paths. Agents should not invent alternate slugs or filenames.
 
 ### AI-Available Reality
 
@@ -348,26 +348,26 @@ A module is considered planned for v4 when it:
 
 ## Companion Documents
 
-### [01-module-content.md](/Users/hye/Documents/GitHub/dbm-materials/textbook/v4/01-module-content.md)
+### [01-module-content.md](01-module-content.md)
 
 Use this file as the index to the v4 module blueprints.
 
-### [modules-plan/](/Users/hye/Documents/GitHub/dbm-materials/textbook/v4/modules-plan)
+### [modules-plan/](modules-plan/)
 
 Use the relevant module file in this directory for module purposes, lesson breakdowns, human-versus-AI boundaries, and assessment design.
 
-### [02-instructional-strategies-for-lessons.md](/Users/hye/Documents/GitHub/dbm-materials/textbook/v4/02-instructional-strategies-for-lessons.md)
+### [02-instructional-strategies-for-lessons.md](02-instructional-strategies-for-lessons.md)
 
 Use this file for v4 lesson-strategy patterns, dominant learning-type guidance, and AI-aware assessment moves.
 
-### [05-lesson-writing-agent-index.md](/Users/hye/Documents/GitHub/dbm-materials/textbook/v4/05-lesson-writing-agent-index.md)
+### [05-lesson-writing-agent-index.md](05-lesson-writing-agent-index.md)
 
 Use this file as the canonical lesson manifest for writing agents. It defines lesson slugs, filename patterns, and the expected output paths for lesson instruction files and draft lesson files.
 
-### [06-design-object-naming-and-notation-conventions.md](/Users/hye/Documents/GitHub/dbm-materials/textbook/v4/06-design-object-naming-and-notation-conventions.md)
+### [06-design-object-naming-and-notation-conventions.md](06-design-object-naming-and-notation-conventions.md)
 
 Use this file as the shared v4 reference for naming conventions and design-object notation.
 
-### [../christian_integration_guide.md](/Users/hye/Documents/GitHub/dbm-materials/textbook/christian_integration_guide.md)
+### [../christian_integration_guide.md](../christian_integration_guide.md)
 
 Use this file as the course-wide standard for Christian integration themes, writing rules, and touchpoint patterns.

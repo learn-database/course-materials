@@ -19,8 +19,8 @@ Read these files before revising this lesson:
 
 ## Output Paths
 
-- Student draft: `textbook/v4/drafts/module-7-database-operation-and-control/lesson-7.1-roles-users-and-permissions.md`
-- Instructor draft: `textbook/v4/drafts/module-7-database-operation-and-control/lesson-7.1-roles-users-and-permissions-instructor.md`
+- Student draft: `textbook/v4/modules/module-07-database-operation-and-control/lessons/lesson-07-01-roles-users-and-permissions/lesson.md`
+- Instructor draft: `textbook/v4/modules/module-07-database-operation-and-control/lessons/lesson-07-01-roles-users-and-permissions/instructor.md`
 
 ## Lesson Focus
 

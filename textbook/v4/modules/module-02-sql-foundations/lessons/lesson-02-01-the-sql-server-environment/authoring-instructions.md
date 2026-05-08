@@ -27,9 +27,9 @@ Use `textbook/v4/02-instructional-strategies-for-lessons.md` and `textbook/v4/06
 
 Create these files:
 
-- `textbook/v4/lesson-instructions/lesson-2.1-the-sql-server-environment-instructions.md`
-- `textbook/v4/drafts/module-2-sql-foundations/lesson-2.1-the-sql-server-environment.md`
-- `textbook/v4/drafts/module-2-sql-foundations/lesson-2.1-the-sql-server-environment-instructor.md`
+- `textbook/v4/modules/module-02-sql-foundations/lessons/lesson-02-01-the-sql-server-environment/authoring-instructions.md`
+- `textbook/v4/modules/module-02-sql-foundations/lessons/lesson-02-01-the-sql-server-environment/lesson.md`
+- `textbook/v4/modules/module-02-sql-foundations/lessons/lesson-02-01-the-sql-server-environment/instructor.md`
 
 ## Lesson Focus
 

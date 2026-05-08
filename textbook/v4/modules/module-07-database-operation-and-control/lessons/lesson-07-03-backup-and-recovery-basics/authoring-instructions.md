@@ -10,11 +10,11 @@
 ## Required Output Paths
 
 - Instruction file:
-  `textbook/v4/lesson-instructions/lesson-7.3-backup-and-recovery-basics-instructions.md`
+  `textbook/v4/modules/module-07-database-operation-and-control/lessons/lesson-07-03-backup-and-recovery-basics/authoring-instructions.md`
 - Student draft:
-  `textbook/v4/drafts/module-7-database-operation-and-control/lesson-7.3-backup-and-recovery-basics.md`
+  `textbook/v4/modules/module-07-database-operation-and-control/lessons/lesson-07-03-backup-and-recovery-basics/lesson.md`
 - Instructor draft:
-  `textbook/v4/drafts/module-7-database-operation-and-control/lesson-7.3-backup-and-recovery-basics-instructor.md`
+  `textbook/v4/modules/module-07-database-operation-and-control/lessons/lesson-07-03-backup-and-recovery-basics/instructor.md`
 
 ## Source Order
 

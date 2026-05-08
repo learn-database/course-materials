@@ -9,9 +9,9 @@
 
 ## Required Output Paths
 
-- Instruction file: `textbook/v4/lesson-instructions/lesson-4.2-keys-of-relations-instructions.md`
-- Student draft: `textbook/v4/drafts/module-4-design-logic/lesson-4.2-keys-of-relations.md`
-- Instructor draft: `textbook/v4/drafts/module-4-design-logic/lesson-4.2-keys-of-relations-instructor.md`
+- Instruction file: `textbook/v4/modules/module-04-design-logic/lessons/lesson-04-02-keys-of-relations/authoring-instructions.md`
+- Student draft: `textbook/v4/modules/module-04-design-logic/lessons/lesson-04-02-keys-of-relations/lesson.md`
+- Instructor draft: `textbook/v4/modules/module-04-design-logic/lessons/lesson-04-02-keys-of-relations/instructor.md`
 
 ## Source Package
 

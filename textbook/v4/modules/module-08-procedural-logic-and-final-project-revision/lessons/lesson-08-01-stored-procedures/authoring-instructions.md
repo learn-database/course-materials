@@ -11,9 +11,9 @@ Use `textbook/v4/03-lesson-prompt.md` as the standing instruction file for this 
 
 ## Canonical Output Paths
 
-- Instruction file: `textbook/v4/lesson-instructions/lesson-8.1-stored-procedures-instructions.md`
-- Student draft: `textbook/v4/drafts/module-8-procedural-logic-and-final-project-revision/lesson-8.1-stored-procedures.md`
-- Instructor draft: `textbook/v4/drafts/module-8-procedural-logic-and-final-project-revision/lesson-8.1-stored-procedures-instructor.md`
+- Instruction file: `textbook/v4/modules/module-08-procedural-logic-and-final-project-revision/lessons/lesson-08-01-stored-procedures/authoring-instructions.md`
+- Student draft: `textbook/v4/modules/module-08-procedural-logic-and-final-project-revision/lessons/lesson-08-01-stored-procedures/lesson.md`
+- Instructor draft: `textbook/v4/modules/module-08-procedural-logic-and-final-project-revision/lessons/lesson-08-01-stored-procedures/instructor.md`
 
 ## Required Source Package
 

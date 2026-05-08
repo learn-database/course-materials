@@ -1,0 +1,89 @@
+contractVersion: 0.1.0
+lessonId: module-3.lesson-3.3.discovering-requirements-and-drafting-a-conceptual-erd
+source: lesson.md
+title: Discovering Requirements and Drafting a Conceptual ERD
+playerMode: segmented
+defaultCaseRef: lakeside-tutoring-center
+
+segments:
+  - id: before-you-start
+    title: Before You Start
+    type: intro
+    purpose: Orient the student to the full move from case reading to a first-pass conceptual ERD.
+    sections:
+      - Lesson overview
+      - Lesson outcomes
+      - Key terms
+      - Readings and media
+    interactions: []
+
+  - id: read-for-purpose-and-scope
+    title: Read For Purpose And Scope
+    type: read_try
+    purpose: Separate must-track facts, business rules, and background before drafting entities.
+    sections:
+      - "Core content > 1. Read for purpose before you read for nouns"
+      - "Core content > 2. Mark must-track facts, rules, and background separately"
+      - "Core content > 3. Control scope before you draft entities"
+    interactions:
+      - id: practice-read-and-mark-the-case
+        source: Guided practice
+        kind: written_response_interaction
+        scoringMode: self_graded
+        points: 1
+        placement: after_sections
+
+  - id: draft-the-conceptual-erd
+    title: Draft The Conceptual ERD
+    type: apply
+    purpose: Turn business meaning into conceptual entities, relationships, and significant attributes.
+    sections:
+      - "Core content > 4. Turn business meaning into entities and relationships"
+      - "Core content > 5. Choose only significant attributes"
+      - "Core content > 6. Keep the ERD conceptual"
+      - Examples and case
+    interactions: []
+
+  - id: critique-and-defend-the-model
+    title: Critique And Defend The Model
+    type: critique
+    purpose: Test whether the ERD reflects the true work, people, responsibilities, and conceptual boundary of the case.
+    sections:
+      - "Core content > 7. Critique the model for truthful representation"
+      - "Core content > 8. Use AI as a draft assistant, not as a substitute for judgment"
+    interactions: []
+
+  - id: project-transfer
+    title: Project Transfer
+    type: apply
+    purpose: Apply the same reading, drafting, critique, and defense process to the student's course project case.
+    sections:
+      - What to do
+    interactions:
+      - id: assignment-lakeside-conceptual-erd-packet
+        source: Assignments
+        kind: design_judgment
+        scoringMode: grading_prompt
+        points: 4
+        placement: after_sections
+      - id: project-checkpoint-first-pass-conceptual-erd
+        source: Project checkpoint or module connection
+        kind: project_checkpoint
+        scoringMode: self_graded
+        points: 1
+        placement: after_assignment
+    wrapUp:
+      source: Wrap-up
+
+controlledTags:
+  - reading
+  - knowledge-check
+  - self-check
+  - design-judgment
+  - project-checkpoint
+  - legacy-kce
+  - conceptual-erd
+  - requirements
+  - lakeside
+  - biblical-integration
+  - truthfulness

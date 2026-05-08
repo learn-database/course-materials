@@ -49,9 +49,9 @@ mechanical sequence of table-splitting steps.
 
 Create these files:
 
-- `textbook/v4/lesson-instructions/lesson-4.3-normalization-and-design-repair-instructions.md`
-- `textbook/v4/drafts/module-4-design-logic/lesson-4.3-normalization-and-design-repair.md`
-- `textbook/v4/drafts/module-4-design-logic/lesson-4.3-normalization-and-design-repair-instructor.md`
+- `textbook/v4/modules/module-04-design-logic/lessons/lesson-04-03-normalization-and-design-repair/authoring-instructions.md`
+- `textbook/v4/modules/module-04-design-logic/lessons/lesson-04-03-normalization-and-design-repair/lesson.md`
+- `textbook/v4/modules/module-04-design-logic/lessons/lesson-04-03-normalization-and-design-repair/instructor.md`
 
 ## Acceptance Targets
 

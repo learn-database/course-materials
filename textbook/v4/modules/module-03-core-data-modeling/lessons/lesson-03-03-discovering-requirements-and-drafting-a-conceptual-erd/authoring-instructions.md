@@ -9,9 +9,9 @@
 
 ## Output Paths
 
-- Instruction file: `textbook/v4/lesson-instructions/lesson-3.3-discovering-requirements-and-drafting-a-conceptual-erd-instructions.md`
-- Student draft: `textbook/v4/drafts/module-3-core-data-modeling/lesson-3.3-discovering-requirements-and-drafting-a-conceptual-erd.md`
-- Instructor draft: `textbook/v4/drafts/module-3-core-data-modeling/lesson-3.3-discovering-requirements-and-drafting-a-conceptual-erd-instructor.md`
+- Instruction file: `textbook/v4/modules/module-03-core-data-modeling/lessons/lesson-03-03-discovering-requirements-and-drafting-a-conceptual-erd/authoring-instructions.md`
+- Student draft: `textbook/v4/modules/module-03-core-data-modeling/lessons/lesson-03-03-discovering-requirements-and-drafting-a-conceptual-erd/lesson.md`
+- Instructor draft: `textbook/v4/modules/module-03-core-data-modeling/lessons/lesson-03-03-discovering-requirements-and-drafting-a-conceptual-erd/instructor.md`
 
 ## Required Source Order
 

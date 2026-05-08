@@ -9,9 +9,9 @@
 
 ## Required Output Paths
 
-- Instruction file: `textbook/v4/lesson-instructions/lesson-4.1-functional-dependencies-instructions.md`
-- Student draft: `textbook/v4/drafts/module-4-design-logic/lesson-4.1-functional-dependencies.md`
-- Instructor draft: `textbook/v4/drafts/module-4-design-logic/lesson-4.1-functional-dependencies-instructor.md`
+- Instruction file: `textbook/v4/modules/module-04-design-logic/lessons/lesson-04-01-functional-dependencies/authoring-instructions.md`
+- Student draft: `textbook/v4/modules/module-04-design-logic/lessons/lesson-04-01-functional-dependencies/lesson.md`
+- Instructor draft: `textbook/v4/modules/module-04-design-logic/lessons/lesson-04-01-functional-dependencies/instructor.md`
 
 ## Lesson Role In Module 4
 

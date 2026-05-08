@@ -116,9 +116,9 @@ Do not add a separate devotional section.
 
 Write these files only:
 
-- `textbook/v4/lesson-instructions/lesson-8.3-final-project-integration-and-revision-instructions.md`
-- `textbook/v4/drafts/module-8-procedural-logic-and-final-project-revision/lesson-8.3-final-project-integration-and-revision.md`
-- `textbook/v4/drafts/module-8-procedural-logic-and-final-project-revision/lesson-8.3-final-project-integration-and-revision-instructor.md`
+- `textbook/v4/modules/module-08-procedural-logic-and-final-project-revision/lessons/lesson-08-03-final-project-integration-and-revision/authoring-instructions.md`
+- `textbook/v4/modules/module-08-procedural-logic-and-final-project-revision/lessons/lesson-08-03-final-project-integration-and-revision/lesson.md`
+- `textbook/v4/modules/module-08-procedural-logic-and-final-project-revision/lessons/lesson-08-03-final-project-integration-and-revision/instructor.md`
 
 ## Acceptance Checks
 

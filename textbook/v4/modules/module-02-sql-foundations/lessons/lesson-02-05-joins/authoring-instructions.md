@@ -11,9 +11,9 @@ Use `textbook/v4/03-lesson-prompt.md` as the standing instruction file for this 
 
 ## Output paths
 
-- Instruction file: `textbook/v4/lesson-instructions/lesson-2.5-joins-instructions.md`
-- Student draft: `textbook/v4/drafts/module-2-sql-foundations/lesson-2.5-joins.md`
-- Instructor draft: `textbook/v4/drafts/module-2-sql-foundations/lesson-2.5-joins-instructor.md`
+- Instruction file: `textbook/v4/modules/module-02-sql-foundations/lessons/lesson-02-05-joins/authoring-instructions.md`
+- Student draft: `textbook/v4/modules/module-02-sql-foundations/lessons/lesson-02-05-joins/lesson.md`
+- Instructor draft: `textbook/v4/modules/module-02-sql-foundations/lessons/lesson-02-05-joins/instructor.md`
 
 ## Summary
 

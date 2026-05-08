@@ -8,8 +8,8 @@
 
 ## Output paths
 
-- Student draft: `textbook/v4/drafts/module-3-core-data-modeling/lesson-3.2-relationships-and-cardinality.md`
-- Instructor draft: `textbook/v4/drafts/module-3-core-data-modeling/lesson-3.2-relationships-and-cardinality-instructor.md`
+- Student draft: `textbook/v4/modules/module-03-core-data-modeling/lessons/lesson-03-02-relationships-and-cardinality/lesson.md`
+- Instructor draft: `textbook/v4/modules/module-03-core-data-modeling/lessons/lesson-03-02-relationships-and-cardinality/instructor.md`
 
 ## Summary
 

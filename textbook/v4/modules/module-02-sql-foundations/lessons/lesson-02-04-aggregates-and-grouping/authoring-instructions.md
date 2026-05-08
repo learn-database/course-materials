@@ -11,9 +11,9 @@ Use `textbook/v4/03-lesson-prompt.md` as the standing instruction file for this 
 
 ## Canonical Output Paths
 
-- Instruction file: `textbook/v4/lesson-instructions/lesson-2.4-aggregates-and-grouping-instructions.md`
-- Student draft: `textbook/v4/drafts/module-2-sql-foundations/lesson-2.4-aggregates-and-grouping.md`
-- Instructor draft: `textbook/v4/drafts/module-2-sql-foundations/lesson-2.4-aggregates-and-grouping-instructor.md`
+- Instruction file: `textbook/v4/modules/module-02-sql-foundations/lessons/lesson-02-04-aggregates-and-grouping/authoring-instructions.md`
+- Student draft: `textbook/v4/modules/module-02-sql-foundations/lessons/lesson-02-04-aggregates-and-grouping/lesson.md`
+- Instructor draft: `textbook/v4/modules/module-02-sql-foundations/lessons/lesson-02-04-aggregates-and-grouping/instructor.md`
 
 ## Required Source Package
 
@@ -102,8 +102,8 @@ Use one small recurring reporting case such as `sales.[Order]` so students can f
 
 Create:
 
-- `textbook/v4/drafts/module-2-sql-foundations/lesson-2.4-aggregates-and-grouping.md`
-- `textbook/v4/drafts/module-2-sql-foundations/lesson-2.4-aggregates-and-grouping-instructor.md`
+- `textbook/v4/modules/module-02-sql-foundations/lessons/lesson-02-04-aggregates-and-grouping/lesson.md`
+- `textbook/v4/modules/module-02-sql-foundations/lessons/lesson-02-04-aggregates-and-grouping/instructor.md`
 
 Split the final lesson into student-facing and instructor-facing draft files while keeping the section requirements from `textbook/v4/03-lesson-prompt.md`.
 

@@ -45,13 +45,27 @@ workbook-platform
 
 Important v4 folders:
 
-- `textbook/v4/drafts/`: student-facing and instructor-facing lesson/module drafts.
+- `textbook/v4/modules/`: lesson-first module folders containing student lessons, instructor notes, and authoring instructions.
 - `textbook/v4/modules-plan/`: module-level instructional plans.
-- `textbook/v4/lesson-instructions/`: lesson-writing prompts and constraints for AI/content agents.
 - `textbook/v4/cases/`: running course cases, including Lakeside Tutoring Center and Cedar Valley Community Clinic.
 - `textbook/v4/activities/`: lesson-level activity patterns.
 - `textbook/v4/assignments/`: actual assignment drafts by module.
 - `textbook/v4/assessments/`: lesson-, module-, and course-level assessment plans.
+
+Lesson-first v4 pattern:
+
+```text
+textbook/v4/modules/module-03-core-data-modeling/
+  overview.md
+  module.md
+  instructor.md
+  lessons/
+    lesson-03-02-relationships-and-cardinality/
+      lesson.md
+      instructor.md
+      authoring-instructions.md
+      import.yml
+```
 
 ## Authoring Workflow
 
@@ -67,8 +81,10 @@ Use this workflow for ordinary content changes:
 For a lesson update, check at least these files:
 
 ```text
-textbook/v4/drafts/.../lesson-x.y-*.md
-textbook/v4/lesson-instructions/lesson-x.y-*-instructions.md
+textbook/v4/modules/module-XX-{module-slug}/lessons/lesson-XX-YY-{lesson-slug}/lesson.md
+textbook/v4/modules/module-XX-{module-slug}/lessons/lesson-XX-YY-{lesson-slug}/instructor.md
+textbook/v4/modules/module-XX-{module-slug}/lessons/lesson-XX-YY-{lesson-slug}/authoring-instructions.md
+textbook/v4/modules/module-XX-{module-slug}/lessons/lesson-XX-YY-{lesson-slug}/import.yml
 textbook/v4/activities/01-lesson-assignments-and-activities.md
 textbook/v4/assignments/module-n-assignments.md
 textbook/v4/assessments/
@@ -78,7 +94,7 @@ For a case update, check:
 
 ```text
 textbook/v4/cases/
-textbook/v4/drafts/
+textbook/v4/modules/
 textbook/v4/assignments/
 textbook/v4/activities/
 ```
@@ -122,10 +138,10 @@ platform database / runtime JSON
 
 When using an AI agent to draft or revise content:
 
-1. Give the agent the relevant lesson-instruction file.
+1. Give the agent the relevant lesson folder and `authoring-instructions.md`.
 2. Give the agent the module plan and course design spec.
 3. Tell the agent whether it is drafting student-facing or instructor-facing content.
 4. Require alignment with the Lakeside/clinic case strategy.
 5. Review the output for course objective alignment, Christian integration, assessment alignment, and naming consistency.
 
-The lesson-instruction files in `textbook/v4/lesson-instructions/` are the best starting point for content-generation prompts.
+The `authoring-instructions.md` file inside each lesson folder is the best starting point for content-generation prompts.

@@ -7,9 +7,9 @@ Use `textbook/v4/03-lesson-prompt.md` as the standing instruction file for this 
 - Lesson number: `8.2`
 - Canonical title: `Triggers`
 - Canonical slug: `triggers`
-- Instruction file: `textbook/v4/lesson-instructions/lesson-8.2-triggers-instructions.md`
-- Student draft: `textbook/v4/drafts/module-8-procedural-logic-and-final-project-revision/lesson-8.2-triggers.md`
-- Instructor draft: `textbook/v4/drafts/module-8-procedural-logic-and-final-project-revision/lesson-8.2-triggers-instructor.md`
+- Instruction file: `textbook/v4/modules/module-08-procedural-logic-and-final-project-revision/lessons/lesson-08-02-triggers/authoring-instructions.md`
+- Student draft: `textbook/v4/modules/module-08-procedural-logic-and-final-project-revision/lessons/lesson-08-02-triggers/lesson.md`
+- Instructor draft: `textbook/v4/modules/module-08-procedural-logic-and-final-project-revision/lessons/lesson-08-02-triggers/instructor.md`
 
 ## Required Source Package
 

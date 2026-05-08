@@ -9,9 +9,9 @@
 
 ## Output Paths
 
-- Instruction file: `textbook/v4/lesson-instructions/lesson-2.2-optional-review-of-set-operations-on-relations-instructions.md`
-- Student draft: `textbook/v4/drafts/module-2-sql-foundations/lesson-2.2-optional-review-of-set-operations-on-relations.md`
-- Instructor draft: `textbook/v4/drafts/module-2-sql-foundations/lesson-2.2-optional-review-of-set-operations-on-relations-instructor.md`
+- Instruction file: `textbook/v4/modules/module-02-sql-foundations/lessons/lesson-02-02-optional-review-of-set-operations-on-relations/authoring-instructions.md`
+- Student draft: `textbook/v4/modules/module-02-sql-foundations/lessons/lesson-02-02-optional-review-of-set-operations-on-relations/lesson.md`
+- Instructor draft: `textbook/v4/modules/module-02-sql-foundations/lessons/lesson-02-02-optional-review-of-set-operations-on-relations/instructor.md`
 
 ## Required Source Package
 
@@ -114,8 +114,8 @@ Keep integration embedded and brief.
 
 Create or revise:
 
-- `textbook/v4/drafts/module-2-sql-foundations/lesson-2.2-optional-review-of-set-operations-on-relations.md`
-- `textbook/v4/drafts/module-2-sql-foundations/lesson-2.2-optional-review-of-set-operations-on-relations-instructor.md`
+- `textbook/v4/modules/module-02-sql-foundations/lessons/lesson-02-02-optional-review-of-set-operations-on-relations/lesson.md`
+- `textbook/v4/modules/module-02-sql-foundations/lessons/lesson-02-02-optional-review-of-set-operations-on-relations/instructor.md`
 
 ## Acceptance Checklist
 

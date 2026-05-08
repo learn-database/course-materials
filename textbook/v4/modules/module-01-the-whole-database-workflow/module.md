@@ -50,8 +50,8 @@ That difference matters because a polished diagram is not enough by itself. You 
 
 This module has two lessons, and each one answers a different question in the workflow:
 
-- [lesson-1.1-why-databases-matter.md](./lesson-1.1-why-databases-matter.md): asks when a business situation really needs a database and when a simpler tool is enough
-- [lesson-1.2-from-business-process-to-database.md](./lesson-1.2-from-business-process-to-database.md): shows the end-to-end workflow from business process to working database and explains the `ERD` versus `DBDD` boundary
+- [lesson.md](./lesson.md): asks when a business situation really needs a database and when a simpler tool is enough
+- [lesson.md](./lesson.md): shows the end-to-end workflow from business process to working database and explains the `ERD` versus `DBDD` boundary
 
 Taken together, the lessons give you the starting judgment for the rest of the course:
 

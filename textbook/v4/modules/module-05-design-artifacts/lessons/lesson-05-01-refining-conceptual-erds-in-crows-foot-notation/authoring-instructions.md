@@ -9,8 +9,8 @@
 
 ## Required Output Paths
 
-- Student draft: `textbook/v4/drafts/module-5-design-artifacts/lesson-5.1-refining-conceptual-erds-in-crows-foot-notation.md`
-- Instructor draft: `textbook/v4/drafts/module-5-design-artifacts/lesson-5.1-refining-conceptual-erds-in-crows-foot-notation-instructor.md`
+- Student draft: `textbook/v4/modules/module-05-design-artifacts/lessons/lesson-05-01-refining-conceptual-erds-in-crows-foot-notation/lesson.md`
+- Instructor draft: `textbook/v4/modules/module-05-design-artifacts/lessons/lesson-05-01-refining-conceptual-erds-in-crows-foot-notation/instructor.md`
 
 ## Source Package
 

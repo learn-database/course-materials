@@ -5,9 +5,9 @@
 - Lesson number: `5.3`
 - Canonical title: `From Logical Model to Implementation-Ready Design`
 - Canonical slug: `from-logical-model-to-implementation-ready-design`
-- Instruction file: `textbook/v4/lesson-instructions/lesson-5.3-from-logical-model-to-implementation-ready-design-instructions.md`
-- Student draft: `textbook/v4/drafts/module-5-design-artifacts/lesson-5.3-from-logical-model-to-implementation-ready-design.md`
-- Instructor draft: `textbook/v4/drafts/module-5-design-artifacts/lesson-5.3-from-logical-model-to-implementation-ready-design-instructor.md`
+- Instruction file: `textbook/v4/modules/module-05-design-artifacts/lessons/lesson-05-03-from-logical-model-to-implementation-ready-design/authoring-instructions.md`
+- Student draft: `textbook/v4/modules/module-05-design-artifacts/lessons/lesson-05-03-from-logical-model-to-implementation-ready-design/lesson.md`
+- Instructor draft: `textbook/v4/modules/module-05-design-artifacts/lessons/lesson-05-03-from-logical-model-to-implementation-ready-design/instructor.md`
 
 ## Required Source Package
 

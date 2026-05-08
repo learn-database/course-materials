@@ -18,6 +18,8 @@ These files make the v4 assessment design usable for course building, assignment
   Defines the eight module assessments, their prompts, evidence types, and grading focus.
 - `03-course-level-assessment-plan.md`
   Defines the course-wide assessment architecture, weighting targets, and capstone-level expectations.
+- `04-legacy-kce-syc-integration-map.md`
+  Maps the legacy `src` Knowledge Check Exercise and Seek Your Challenge banks into the v4 module sequence.
 
 ## Core Rule
 

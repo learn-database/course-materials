@@ -5,9 +5,9 @@
 - Lesson number: `6.2`
 - Canonical title: `Inserting, Updating, and Deleting Data`
 - Canonical slug: `inserting-updating-and-deleting-data`
-- Instruction file: `textbook/v4/lesson-instructions/lesson-6.2-inserting-updating-and-deleting-data-instructions.md`
-- Student draft: `textbook/v4/drafts/module-6-sql-server-implementation/lesson-6.2-inserting-updating-and-deleting-data.md`
-- Instructor draft: `textbook/v4/drafts/module-6-sql-server-implementation/lesson-6.2-inserting-updating-and-deleting-data-instructor.md`
+- Instruction file: `textbook/v4/modules/module-06-sql-server-implementation/lessons/lesson-06-02-inserting-updating-and-deleting-data/authoring-instructions.md`
+- Student draft: `textbook/v4/modules/module-06-sql-server-implementation/lessons/lesson-06-02-inserting-updating-and-deleting-data/lesson.md`
+- Instructor draft: `textbook/v4/modules/module-06-sql-server-implementation/lessons/lesson-06-02-inserting-updating-and-deleting-data/instructor.md`
 
 ## Required Source Package
 

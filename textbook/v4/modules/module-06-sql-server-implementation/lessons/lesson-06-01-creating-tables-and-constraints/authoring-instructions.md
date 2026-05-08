@@ -9,9 +9,9 @@
 
 ## Output Paths
 
-- Instruction file: `textbook/v4/lesson-instructions/lesson-6.1-creating-tables-and-constraints-instructions.md`
-- Student draft: `textbook/v4/drafts/module-6-sql-server-implementation/lesson-6.1-creating-tables-and-constraints.md`
-- Instructor draft: `textbook/v4/drafts/module-6-sql-server-implementation/lesson-6.1-creating-tables-and-constraints-instructor.md`
+- Instruction file: `textbook/v4/modules/module-06-sql-server-implementation/lessons/lesson-06-01-creating-tables-and-constraints/authoring-instructions.md`
+- Student draft: `textbook/v4/modules/module-06-sql-server-implementation/lessons/lesson-06-01-creating-tables-and-constraints/lesson.md`
+- Instructor draft: `textbook/v4/modules/module-06-sql-server-implementation/lessons/lesson-06-01-creating-tables-and-constraints/instructor.md`
 
 ## Required Source Package
 

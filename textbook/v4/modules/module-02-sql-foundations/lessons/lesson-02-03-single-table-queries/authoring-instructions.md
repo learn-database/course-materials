@@ -10,9 +10,9 @@ Use `textbook/v4/03-lesson-prompt.md` as the standing instruction file for this 
 
 ## Output Paths
 
-- Instruction file: `textbook/v4/lesson-instructions/lesson-2.3-single-table-queries-instructions.md`
-- Student draft: `textbook/v4/drafts/module-2-sql-foundations/lesson-2.3-single-table-queries.md`
-- Instructor draft: `textbook/v4/drafts/module-2-sql-foundations/lesson-2.3-single-table-queries-instructor.md`
+- Instruction file: `textbook/v4/modules/module-02-sql-foundations/lessons/lesson-02-03-single-table-queries/authoring-instructions.md`
+- Student draft: `textbook/v4/modules/module-02-sql-foundations/lessons/lesson-02-03-single-table-queries/lesson.md`
+- Instructor draft: `textbook/v4/modules/module-02-sql-foundations/lessons/lesson-02-03-single-table-queries/instructor.md`
 
 ## Summary
 
@@ -74,9 +74,9 @@ Also use supporting v4 references as needed:
 
 Create all three files:
 
-1. `textbook/v4/lesson-instructions/lesson-2.3-single-table-queries-instructions.md`
-2. `textbook/v4/drafts/module-2-sql-foundations/lesson-2.3-single-table-queries.md`
-3. `textbook/v4/drafts/module-2-sql-foundations/lesson-2.3-single-table-queries-instructor.md`
+1. `textbook/v4/modules/module-02-sql-foundations/lessons/lesson-02-03-single-table-queries/authoring-instructions.md`
+2. `textbook/v4/modules/module-02-sql-foundations/lessons/lesson-02-03-single-table-queries/lesson.md`
+3. `textbook/v4/modules/module-02-sql-foundations/lessons/lesson-02-03-single-table-queries/instructor.md`
 
 ## Acceptance Criteria
 

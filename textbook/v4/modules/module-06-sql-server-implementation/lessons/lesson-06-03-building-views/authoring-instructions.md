@@ -5,9 +5,9 @@
 - Lesson number: `6.3`
 - Canonical title: `Building Views`
 - Canonical slug: `building-views`
-- Instruction file: `textbook/v4/lesson-instructions/lesson-6.3-building-views-instructions.md`
-- Student draft: `textbook/v4/drafts/module-6-sql-server-implementation/lesson-6.3-building-views.md`
-- Instructor draft: `textbook/v4/drafts/module-6-sql-server-implementation/lesson-6.3-building-views-instructor.md`
+- Instruction file: `textbook/v4/modules/module-06-sql-server-implementation/lessons/lesson-06-03-building-views/authoring-instructions.md`
+- Student draft: `textbook/v4/modules/module-06-sql-server-implementation/lessons/lesson-06-03-building-views/lesson.md`
+- Instructor draft: `textbook/v4/modules/module-06-sql-server-implementation/lessons/lesson-06-03-building-views/instructor.md`
 
 ## Required Source Package
 

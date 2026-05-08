@@ -5,9 +5,9 @@
 - Lesson number: `3.1`
 - Canonical title: `Entities, Attributes, and Identifiers`
 - Canonical slug: `entities-attributes-and-identifiers`
-- Instruction file: `textbook/v4/lesson-instructions/lesson-3.1-entities-attributes-and-identifiers-instructions.md`
-- Student draft: `textbook/v4/drafts/module-3-core-data-modeling/lesson-3.1-entities-attributes-and-identifiers.md`
-- Instructor draft: `textbook/v4/drafts/module-3-core-data-modeling/lesson-3.1-entities-attributes-and-identifiers-instructor.md`
+- Instruction file: `textbook/v4/modules/module-03-core-data-modeling/lessons/lesson-03-01-entities-attributes-and-identifiers/authoring-instructions.md`
+- Student draft: `textbook/v4/modules/module-03-core-data-modeling/lessons/lesson-03-01-entities-attributes-and-identifiers/lesson.md`
+- Instructor draft: `textbook/v4/modules/module-03-core-data-modeling/lessons/lesson-03-01-entities-attributes-and-identifiers/instructor.md`
 
 ## Source Package
 

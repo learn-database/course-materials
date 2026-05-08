@@ -5,9 +5,9 @@
 - Lesson number: `1.2`
 - Canonical title: `From Business Process to Database`
 - Canonical slug: `from-business-process-to-database`
-- Instruction file: `textbook/v4/lesson-instructions/lesson-1.2-from-business-process-to-database-instructions.md`
-- Student draft: `textbook/v4/drafts/module-1-the-whole-database-workflow/lesson-1.2-from-business-process-to-database.md`
-- Instructor draft: `textbook/v4/drafts/module-1-the-whole-database-workflow/lesson-1.2-from-business-process-to-database-instructor.md`
+- Instruction file: `textbook/v4/modules/module-01-the-whole-database-workflow/lessons/lesson-01-02-from-business-process-to-database/authoring-instructions.md`
+- Student draft: `textbook/v4/modules/module-01-the-whole-database-workflow/lessons/lesson-01-02-from-business-process-to-database/lesson.md`
+- Instructor draft: `textbook/v4/modules/module-01-the-whole-database-workflow/lessons/lesson-01-02-from-business-process-to-database/instructor.md`
 
 ## Purpose
 
@@ -111,9 +111,9 @@ Do not add a stand-alone devotional section.
 
 Create all three files:
 
-1. `textbook/v4/lesson-instructions/lesson-1.2-from-business-process-to-database-instructions.md`
-2. `textbook/v4/drafts/module-1-the-whole-database-workflow/lesson-1.2-from-business-process-to-database.md`
-3. `textbook/v4/drafts/module-1-the-whole-database-workflow/lesson-1.2-from-business-process-to-database-instructor.md`
+1. `textbook/v4/modules/module-01-the-whole-database-workflow/lessons/lesson-01-02-from-business-process-to-database/authoring-instructions.md`
+2. `textbook/v4/modules/module-01-the-whole-database-workflow/lessons/lesson-01-02-from-business-process-to-database/lesson.md`
+3. `textbook/v4/modules/module-01-the-whole-database-workflow/lessons/lesson-01-02-from-business-process-to-database/instructor.md`
 
 ## Acceptance Criteria
 
